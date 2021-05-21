@@ -1,11 +1,10 @@
-
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     
     width: 115rem;
-    margin-top: 2.2rem;
+    margin-top: 3rem;
 }
 
 
@@ -73,7 +72,7 @@ main .field1 strong {
     margin-left: 1.2rem; 
 }
 
-#page_recovery main .field1_verify strong {
+#page_verify main .field1_verify strong {
     
     line-height: 4.2rem;
     font-size: 3.2rem;
@@ -188,34 +187,34 @@ main .input-smartcode input:hover {
 } 
 
 
-#page_recovery main footer {
+#page_verify main footer {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     
-    margin-top: 12rem;
+    margin-top: 15rem;
     margin-left: -280px;
 }
 
-#page_recovery main footer h3{
+#page_verify main footer h3{
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
 
-#page_recovery main footer h3 p,
-#page_recovery main footer h3 strong {
+#page_verify main footer h3 p,
+#page_verify main footer h3 strong {
     font-weight: 700;
     font-family: Ubuntu;
     font-size: 1.4rem;
 }
 
-#page_recovery main footer h3 strong {
+#page_verify main footer h3 strong {
     color: #3167C0;
     margin-left: 0.5rem;
 }
 
-#page_recovery main footer .help {
+#page_verify main footer .help {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -224,13 +223,13 @@ main .input-smartcode input:hover {
 
 }
 
-#page_recovery main footer .help img {
+#page_verify main footer .help img {
     width: 20px;
     height: 23.33px;
     margin-right: 0.5rem;
 }
 
-#page_recovery main footer .help a {
+#page_verify main footer .help a {
     font-family: Ubuntu;
     font-size: 1.4rem;
     font-weight: 700;
