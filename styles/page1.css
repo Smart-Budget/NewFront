@@ -13,7 +13,6 @@ nav {
     background-color: #232939;
     width: 5rem;
     height: 100vh;
-    
 }
 
 a{
@@ -21,20 +20,20 @@ a{
     text-decoration: none;
 }
 
-img {   
+.div-lateral img {   
     width: 2rem;
     height: 2rem;
     margin: 1.5rem auto;
 }
 
-.image-empresa {   
+.div-lateral .image-empresa {   
     margin-top: 5rem;
 }
 
-.image-photo {   
+.div-lateral .image-photo {   
     width: 3rem;
     height: 3rem;
-    margin-top: 18rem;
+    margin-top: 14rem;
 }
 
 .div-head{
@@ -44,7 +43,7 @@ img {
     width: 1200px;
 }
 
-strong{
+.div-head strong{
     font-family: Ubuntu;
     font-style: normal;
     font-weight: bold;
@@ -54,7 +53,7 @@ strong{
     padding-left: 4rem;
 }
 
-a .button-add{
+.div-head a .button-add{
     width: 180px;
     height: 50px;
 
@@ -70,15 +69,15 @@ a .button-add{
     line-height: 21px;
 }
 
-a .button-add:hover {
+.div-head a .button-add:hover {
     background-color: hsla(147, 59%, 50%, 0.774);
     cursor: pointer;
 }
 
 .div-busca{
-    
     padding-left: 4rem;
     padding-top: 3rem;
+    
 }
 
 #txtBusca {
@@ -91,9 +90,83 @@ a .button-add:hover {
     background-repeat: no-repeat;
     background-position-x: 12px;
     padding-left: 3rem;
+    background-color: #F2F3F5;
 }
 
 #txtBusca:hover{
     background-image: none;
     padding-left: 0;
+}
+
+.head{
+	display: flex;
+	justify-content: space-between;
+	width: 925px;
+	margin: 25px 70px 0px;
+	border-bottom: 2px solid #DFDFDF;
+}
+
+.line1 {
+	display: flex;
+	justify-content: space-between;
+	width: 925px;
+	margin: 0px 70px;
+	border-bottom: 2px solid #DFDFDF;	
+}
+
+.line2 {
+	display: flex;
+	justify-content: space-between;
+	width: 925px;
+	margin: 0px 70px;
+	border-bottom: 2px solid #DFDFDF;	
+}
+
+.head h2{
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	color: #6C6C80;
+}
+
+.head .h5{
+	margin-right: 40px;
+}
+
+.head .h2{
+	margin-left: -45px;
+	margin-right: 20px;
+}
+
+.line1 img,
+.line2 img {
+    width: 0.8rem;
+    height: 0.8rem;
+    margin: auto;
+}
+
+.line1 .h10,
+.line2 .h15 {
+    background-color: #F2F3F5;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+
+    margin-right: 35px;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.line1 h2,
+.line2 h2 {
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	color: #232939;
+    margin-left: 10px;
 }
