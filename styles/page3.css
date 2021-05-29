@@ -123,8 +123,9 @@ a{
     color: black;
 }
 
-.part3{
+.part3 {
     display: flex;
+    
 }
 
 .part3 .partLogo .logoImg{
@@ -147,5 +148,115 @@ a{
     color: #232939;
 }
 
+.part3 .partLogo h4 {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
 
+    color: #232939;
 
+    margin-left: 8rem; 
+    width: 180px; 
+}
+
+.part3 .partLine1 {
+    display: flex;
+    justify-content: space-between;
+    width: 670px;
+    height: 90px;
+
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.part3 .partLine1 .partLine11 p,
+.part3 .partLine1 .partLine12 p,
+.part3 .partLine2 p {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+
+    margin-bottom: 2px;
+    color: #999999;;
+}
+
+.part3 .partLine1 .partLine11 input{
+    width: 208px;
+    height: 40px;
+
+    background: #F2F3F5;
+    border-radius: 2px 2px 0px 0px;
+    border: none;
+    
+    background-image: url('/images/Reload.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-position-x: 180px;
+
+    border-bottom: solid 2.5px #868B98;
+}
+.part3 .partLine1 .partLine11 input:hover{
+    border-bottom: solid 2.5px #3167C0;
+}
+
+.part3 .partLine1 .partLine12 input {
+    width: 438px;
+    height: 40px;
+
+    background: #F2F3F5;
+    border-radius: 2px 2px 0px 0px;
+    border: none;
+    
+    border-bottom: solid 2.5px #868B98;
+}
+
+.part3 .partLine1 .partLine12 input:hover{
+    border-bottom: solid 2.5px #3167C0;
+}
+
+.part3 .partLine2 {
+    width: 670px;
+    height: 90px;
+
+    margin-top: -1rem;
+    margin-left: 1rem;
+}
+
+.part3 .partLine2 input {
+    width: 248px;
+    height: 40px;
+
+    background: #F2F3F5;
+    border-radius: 2px 2px 0px 0px;
+    border: none; 
+
+    border-bottom: solid 2.5px #868B98;
+}
+
+.part3 .partLine2 input:hover{
+    border-bottom: solid 2.5px #3167C0;
+}
+
+.m2 .div-button button{
+    width: 180px;
+    height: 50px;
+
+    background: #34CB79;
+    border-radius: 5px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+    border: none;
+}
+
+.m2 .div-button {
+    margin-left: 1020px;
+}
